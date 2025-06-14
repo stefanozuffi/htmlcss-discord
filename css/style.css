@@ -18,28 +18,14 @@ button {
 }
 
 
-/* #region Debug */
-
-
-
-.debug #in-p {
-    max-height: 60px;
+p {
+    line-height: 25px;
 }
 
-
-
-
+/* #region Debug */
 
 .debug .flex-container > * {
     min-height: 150px;
-}
-
-.debug .img-part {
-   background-color: beige;
-}
-
-.debug .text-part {
-    background-color: aquamarine;
 }
 
 .debug #single-section {
@@ -47,8 +33,7 @@ button {
 }
 /* #endregion Debug */
 
-
-/* ZONA HEADER */
+/* #region ZONA HEADER */
 
 /* P-header */
 .p-header {
@@ -105,27 +90,35 @@ button {
 .ban-info {
     min-height: 100px;
     min-width: 200px;
-    max-width: 40%;
+    max-width: 45%;
     margin: auto;
 }
 
 .ban-info > * {
 
-    margin: 10px auto;
+    margin: 15px auto;
     text-align: center;
     color: white;
-
 
 }
 
 #titolo {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
 }
 
+/* #endregion ZONA HEADER */
+
 /* ZONA PRINCIPALE */
-.sezione {
+section {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grigia {
+    background-color: lightgrey;
 }
 
 .flex-container {
@@ -135,6 +128,7 @@ button {
     width: 70%;
     justify-content: center;
     margin-top: 30px;
+    gap: 50px;
 }
 
 .img-part {
@@ -142,8 +136,21 @@ button {
 }
 
 .text-part {
-    width: 40%;
+    width: 28%;
 } 
+
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.double-sec-img {
+    width: 95%;
+}
+
+
 
 #single-section {
     min-height: 150px;
