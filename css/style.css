@@ -132,10 +132,27 @@ p {
 
 /* #endregion ZONA HEADER */
 
-/* ZONA PRINCIPALE */
+/* Effetto Onda */
+.onda {
+    width: 100%;
+}
+
+.onda-pic {
+    width: 100%;
+    position: relative; 
+    top: 5px; 
+    filter: invert(100%) sepia(2%) saturate(1588%) hue-rotate(299deg) brightness(94%) contrast(75%);
+}
+
+.reverse {
+    transform: rotate(180deg);
+    position: relative;
+    top: -8px;
+} 
+
+
+/* #region ZONA PRINCIPALE */
 section {
-    margin-top: 30px;
-    margin-bottom: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -165,7 +182,7 @@ section {
 
 h2 {
     font-size: 30px;
-    margin-bottom: 20px;
+     margin-bottom: 20px; 
 }
 
 
@@ -205,7 +222,7 @@ h2 {
     background-color: rgb(147, 160, 220);
 }
 
-
+/* #endregion ZONA PRINCIPALE */
 
 /* ZONA FOOTER */
 #piedipag {
