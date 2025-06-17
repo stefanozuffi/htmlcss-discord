@@ -9,7 +9,6 @@
 }
 
 body{
-    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -39,6 +38,7 @@ p {
 
 .debug .flex-container > * {
     min-height: 150px;
+    max-width: 1000px;
 }
 
 /* #endregion Debug */
